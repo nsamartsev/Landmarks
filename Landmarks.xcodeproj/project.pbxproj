@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11C6F2DE23BBF63700FC0C9F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 11C6F2DD23BBF63700FC0C9F /* README.md */; };
 		11F75FBF23B8A3E80080ED4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F75FBE23B8A3E80080ED4B /* AppDelegate.swift */; };
 		11F75FC123B8A3E80080ED4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F75FC023B8A3E80080ED4B /* SceneDelegate.swift */; };
 		11F75FC523B8A3EA0080ED4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F75FC423B8A3EA0080ED4B /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11C6F2DD23BBF63700FC0C9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11F75FBB23B8A3E80080ED4B /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F75FBE23B8A3E80080ED4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11F75FC023B8A3E80080ED4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		11F75FB223B8A3E80080ED4B = {
 			isa = PBXGroup;
 			children = (
+				11C6F2DD23BBF63700FC0C9F /* README.md */,
 				11F75FBD23B8A3E80080ED4B /* Landmarks */,
 				11F75FBC23B8A3E80080ED4B /* Products */,
 			);
@@ -217,6 +220,7 @@
 				11F75FC823B8A3EA0080ED4B /* Preview Assets.xcassets in Resources */,
 				11F75FF323B917490080ED4B /* twinlake.jpg in Resources */,
 				11F75FF723B917490080ED4B /* yukon_charleyrivers.jpg in Resources */,
+				11C6F2DE23BBF63700FC0C9F /* README.md in Resources */,
 				11F75FC523B8A3EA0080ED4B /* Assets.xcassets in Resources */,
 				11F75FFC23B917490080ED4B /* umbagog.jpg in Resources */,
 				11F75FF423B917490080ED4B /* lakemcdonald.jpg in Resources */,
