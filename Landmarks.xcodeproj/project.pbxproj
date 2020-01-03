@@ -94,7 +94,6 @@
 		11F75FB223B8A3E80080ED4B = {
 			isa = PBXGroup;
 			children = (
-				11D9228323BCBEDE006CE11D /* UserData.swift */,
 				11C6F2DD23BBF63700FC0C9F /* README.md */,
 				11F75FBD23B8A3E80080ED4B /* Landmarks */,
 				11F75FBC23B8A3E80080ED4B /* Products */,
@@ -112,6 +111,7 @@
 		11F75FBD23B8A3E80080ED4B /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				11D9228323BCBEDE006CE11D /* UserData.swift */,
 				11F75FE223B916F30080ED4B /* Resources */,
 				11F75FDD23B916200080ED4B /* Models */,
 				11F75FBE23B8A3E80080ED4B /* AppDelegate.swift */,
