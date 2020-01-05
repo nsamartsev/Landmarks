@@ -12,7 +12,7 @@ struct LandmarkList: View {
     @EnvironmentObject var userData: UserData
     
     var body: some View {
-        NavigationView {
+
             List {
                 HStack {
                     Toggle(isOn: $userData.showFavoritesOnly) {
@@ -29,7 +29,7 @@ struct LandmarkList: View {
                 }
             }
             .navigationBarTitle(Text("Landmarks"))
-        }
+        
     }
 }
 
@@ -39,8 +39,10 @@ struct LandmarkList_Previews: PreviewProvider {
 //            LandmarkList()
 //                       .previewDevice(PreviewDevice(rawValue: deviceName))
 //        }
-        LandmarkList()
-            .environmentObject(UserData())
-            .previewDevice(PreviewDevice(rawValue: "iPhone 8"))
+        NavigationView {
+            LandmarkList()
+                .environmentObject(UserData())
+                //.previewDevice(PreviewDevice(rawValue: "iPhone 8"))
+        }
     }
 }
